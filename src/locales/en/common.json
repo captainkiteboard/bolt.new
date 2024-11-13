@@ -1,0 +1,71 @@
+{
+    "nav": {
+      "jobMatch": "Job Match",
+      "upgrade": "Upgrade",
+      "faq": "FAQ",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu"
+    },
+    "home": {
+      "title": "Match Your Resume to Job Descriptions",
+      "subtitle": "Optimize your resume for ATS and increase your chances of getting hired",
+      "uploadSection": {
+        "resume": {
+          "title": "Upload Resume",
+          "dragDrop": "Drag and drop your resume here",
+          "or": "or",
+          "browse": "Browse files",
+          "paste": "Paste resume text",
+          "placeholder": "Paste your resume content here..."
+        },
+        "jobDescription": {
+          "title": "Upload Job Description",
+          "dragDrop": "Drag and drop job description here",
+          "paste": "Paste job description",
+          "placeholder": "Paste the job description here..."
+        }
+      },
+      "matchButton": "Analyze Match",
+      "processing": "Analyzing your match..."
+    },
+    "results": {
+      "title": "Match Results",
+      "overallScore": "Overall Match Score",
+      "sections": {
+        "summary": "Summary",
+        "technicalSkills": "Technical Skills",
+        "experience": "Experience",
+        "education": "Education",
+        "industryKnowledge": "Industry Knowledge",
+        "softSkills": "Soft Skills"
+      },
+      "recommendations": "Recommendations",
+      "followUp": "Follow-up Questions"
+    },
+    "upgrade": {
+      "title": "Upgrade Your Account",
+      "features": "Premium Features",
+      "pricing": "Pricing Plans"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "search": "Search FAQs"
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "retry": "Try again",
+      "save": "Save",
+      "cancel": "Cancel",
+      "close": "Close",
+      "upload": "Upload",
+      "download": "Download",
+      "copy": "Copy",
+      "delete": "Delete"
+    }, 
+    "rateLimit": {
+    "info": "Noch {{remaining}} von {{total}} Anfragen übrig. Zurückgesetzt in {{resetIn}} Minuten.",
+    "error": "Anfragelimit überschritten. Bitte versuchen Sie es in {{minutes}} Minuten erneut oder upgraden Sie Ihren Plan.",
+    "upgrade": "Jetzt upgraden für unbegrenzte Anfragen"
+  }
+  }

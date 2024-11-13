@@ -1,0 +1,37 @@
+
+{
+    "nav": {
+      "jobMatch": "Vacature Match",
+      "upgrade": "Upgraden",
+      "faq": "FAQ",
+      "openMenu": "Menu openen",
+      "closeMenu": "Menu sluiten"
+    },
+    "home": {
+      "title": "Vergelijk je CV met vacatures",
+      "subtitle": "Optimaliseer je CV voor ATS en vergroot je kans op een baan",
+      "uploadSection": {
+        "resume": {
+          "title": "CV uploaden",
+          "dragDrop": "Sleep je CV hierheen",
+          "or": "of",
+          "browse": "Bestanden zoeken",
+          "paste": "CV tekst plakken",
+          "placeholder": "Plak hier je CV inhoud..."
+        },
+        "jobDescription": {
+          "title": "Vacaturetekst uploaden",
+          "dragDrop": "Sleep de vacaturetekst hierheen",
+          "paste": "Vacaturetekst plakken",
+          "placeholder": "Plak hier de vacaturetekst..."
+        }
+      },
+      "matchButton": "Match analyseren",
+      "processing": "Bezig met analyseren..."
+    },
+    "rateLimit": {
+    "info": "Nog {{remaining}} van {{total}} verzoeken over. Reset over {{resetIn}} minuten.",
+    "error": "Limiet voor verzoeken overschreden. Probeer het over {{minutes}} minuten opnieuw of upgrade uw abonnement.",
+    "upgrade": "Upgrade nu voor onbeperkte verzoeken"
+  }
+  }

@@ -1,0 +1,37 @@
+
+{
+  "nav": {
+    "jobMatch": "Match Lavoro",
+    "upgrade": "Aggiorna",
+    "faq": "FAQ",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu"
+  },
+  "home": {
+    "title": "Confronta il tuo CV con le descrizioni di lavoro",
+    "subtitle": "Ottimizza il tuo CV per ATS e aumenta le tue possibilità di assunzione",
+    "uploadSection": {
+      "resume": {
+        "title": "Carica CV",
+        "dragDrop": "Trascina qui il tuo CV",
+        "or": "oppure",
+        "browse": "Sfoglia file",
+        "paste": "Incolla testo CV",
+        "placeholder": "Incolla qui il contenuto del tuo CV..."
+      },
+      "jobDescription": {
+        "title": "Carica descrizione lavoro",
+        "dragDrop": "Trascina qui la descrizione",
+        "paste": "Incolla descrizione lavoro",
+        "placeholder": "Incolla qui la descrizione del lavoro..."
+      }
+    },
+    "matchButton": "Analizza corrispondenza",
+    "processing": "Analisi in corso..."
+  },
+  "rateLimit": {
+    "info": "{{remaining}} richieste rimanenti su {{total}}. Si reimposta tra {{resetIn}} minuti.",
+    "error": "Limite di richieste superato. Riprova tra {{minutes}} minuti o aggiorna il tuo piano.",
+    "upgrade": "Aggiorna ora per richieste illimitate"
+  }
+}

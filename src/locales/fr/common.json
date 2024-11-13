@@ -1,0 +1,38 @@
+
+{
+  "nav": {
+    "jobMatch": "Match d'Emploi",
+    "upgrade": "Améliorer",
+    "faq": "FAQ",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "home": {
+    "title": "Comparez votre CV aux descriptions de poste",
+    "subtitle": "Optimisez votre CV pour l'ATS et augmentez vos chances d'être embauché",
+    "uploadSection": {
+      "resume": {
+        "title": "Télécharger le CV",
+        "dragDrop": "Déposez votre CV ici",
+        "or": "ou",
+        "browse": "Parcourir les fichiers",
+        "paste": "Coller le texte du CV",
+        "placeholder": "Collez le contenu de votre CV ici..."
+      },
+      "jobDescription": {
+        "title": "Télécharger la description du poste",
+        "dragDrop": "Déposez la description du poste ici",
+        "paste": "Coller la description du poste",
+        "placeholder": "Collez la description du poste ici..."
+      }
+    },
+    "matchButton": "Analyser la correspondance",
+    "processing": "Analyse en cours..."
+    
+  },
+  "rateLimit": {
+    "info": "{{remaining}} requêtes restantes sur {{total}}. Réinitialisation dans {{resetIn}} minutes.",
+    "error": "Limite de requêtes dépassée. Veuillez réessayer dans {{minutes}} minutes ou mettre à niveau votre forfait.",
+    "upgrade": "Passez à la version premium pour des requêtes illimitées"
+  }
+}

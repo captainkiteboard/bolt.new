@@ -1,0 +1,51 @@
+
+{
+    "nav": {
+      "jobMatch": "Job-Matching",
+      "upgrade": "Upgrade",
+      "faq": "FAQ",
+      "openMenu": "Menü öffnen",
+      "closeMenu": "Menü schließen"
+    },
+    "home": {
+      "title": "Lebenslauf mit Stellenbeschreibungen abgleichen",
+      "subtitle": "Optimieren Sie Ihren Lebenslauf für ATS und erhöhen Sie Ihre Einstellungschancen",
+      "uploadSection": {
+        "resume": {
+          "title": "Lebenslauf hochladen",
+          "dragDrop": "Lebenslauf hier ablegen",
+          "or": "oder",
+          "browse": "Dateien durchsuchen",
+          "paste": "Lebenslauf-Text einfügen",
+          "placeholder": "Fügen Sie hier Ihren Lebenslauf ein..."
+        },
+        "jobDescription": {
+          "title": "Stellenbeschreibung hochladen",
+          "dragDrop": "Stellenbeschreibung hier ablegen",
+          "paste": "Stellenbeschreibung einfügen",
+          "placeholder": "Fügen Sie hier die Stellenbeschreibung ein..."
+        }
+      },
+      "matchButton": "Match analysieren",
+      "processing": "Analyse läuft..."
+    },
+    "results": {
+      "title": "Ergebnisse",
+      "overallScore": "Gesamtbewertung",
+      "sections": {
+        "summary": "Zusammenfassung",
+        "technicalSkills": "Technische Fähigkeiten",
+        "experience": "Erfahrung",
+        "education": "Bildung",
+        "industryKnowledge": "Branchenkenntnisse",
+        "softSkills": "Soft Skills"
+      },
+      "recommendations": "Empfehlungen",
+      "followUp": "Nachfragen"
+    }, 
+    "rateLimit": {
+        "info": "Noch {{remaining}} von {{total}} Anfragen übrig. Zurückgesetzt in {{resetIn}} Minuten.",
+        "error": "Anfragelimit überschritten. Bitte versuchen Sie es in {{minutes}} Minuten erneut oder upgraden Sie Ihren Plan.",
+        "upgrade": "Jetzt upgraden für unbegrenzte Anfragen"
+      }
+  }

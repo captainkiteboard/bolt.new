@@ -1,0 +1,37 @@
+
+{
+  "nav": {
+    "jobMatch": "Match de Emprego",
+    "upgrade": "Upgrade",
+    "faq": "FAQ",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "home": {
+    "title": "Compare seu currículo com descrições de vagas",
+    "subtitle": "Otimize seu currículo para ATS e aumente suas chances de contratação",
+    "uploadSection": {
+      "resume": {
+        "title": "Enviar Currículo",
+        "dragDrop": "Arraste seu currículo aqui",
+        "or": "ou",
+        "browse": "Procurar arquivos",
+        "paste": "Colar texto do currículo",
+        "placeholder": "Cole o conteúdo do seu currículo aqui..."
+      },
+      "jobDescription": {
+        "title": "Enviar descrição da vaga",
+        "dragDrop": "Arraste a descrição da vaga aqui",
+        "paste": "Colar descrição da vaga",
+        "placeholder": "Cole a descrição da vaga aqui..."
+      }
+    },
+    "matchButton": "Analisar correspondência",
+    "processing": "Analisando..."
+  },
+  "rateLimit": {
+    "info": "{{remaining}} de {{total}} solicitações restantes. Redefine em {{resetIn}} minutos.",
+    "error": "Limite de solicitações excedido. Tente novamente em {{minutes}} minutos ou atualize seu plano.",
+    "upgrade": "Atualize agora para solicitações ilimitadas"
+  }
+}
