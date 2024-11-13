@@ -18,6 +18,7 @@ const languages: Language[] = [
   { code: 'pt', name: 'Portuguese', flag: '/flags/pt.svg' },
 ];
 
+
 export const LanguageSelector: FC = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
