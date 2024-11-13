@@ -10,6 +10,7 @@
   "home": {
     "title": "Comparez votre CV aux descriptions de poste",
     "subtitle": "Optimisez votre CV pour l'ATS et augmentez vos chances d'être embauché",
+    "ats": "(ATS) Système de suivi des candidatures", 
     "uploadSection": {
       "resume": {
         "title": "Télécharger le CV",

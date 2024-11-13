@@ -10,6 +10,7 @@
     "home": {
       "title": "Lebenslauf mit Stellenbeschreibungen abgleichen",
       "subtitle": "Optimieren Sie Ihren Lebenslauf für ATS und erhöhen Sie Ihre Einstellungschancen",
+      "ats": "(ATS) Bewerber-Tracking-System", 
       "uploadSection": {
         "resume": {
           "title": "Lebenslauf hochladen",
@@ -47,5 +48,31 @@
         "info": "Noch {{remaining}} von {{total}} Anfragen übrig. Zurückgesetzt in {{resetIn}} Minuten.",
         "error": "Anfragelimit überschritten. Bitte versuchen Sie es in {{minutes}} Minuten erneut oder upgraden Sie Ihren Plan.",
         "upgrade": "Jetzt upgraden für unbegrenzte Anfragen"
-      }
+      },
+      "qa": {
+    "title": "Häufig gestellte Fragen",
+    "q1": "Wie funktioniert ein Tool zur Lebenslaufabstimmung?",
+    "a1": "Ein Tool zur Lebenslaufabstimmung scannt Ihren Lebenslauf und eine spezifische Stellenbeschreibung und analysiert dann, wie gut Ihre Qualifikationen den Anforderungen der Stelle entsprechen. Es betrachtet Schlüsselwörter, relevante Erfahrungen, Fähigkeiten und branchenspezifische Terminologie, um eine Übereinstimmungsbewertung zu erstellen, die Ihnen hilft, Verbesserungsbereiche zu identifizieren.",
+    "q2": "Was sind die wichtigsten Schlüsselwörter, die ich in meinen Lebenslauf aufnehmen sollte, um die ATS-Kompatibilität zu verbessern?",
+    "a2": "Um die ATS-Kompatibilität zu verbessern, konzentrieren Sie sich auf Schlüsselwörter direkt aus der Stellenbeschreibung, wie spezifische Fähigkeiten, Jobtitel und relevante Technologien (wie 'React', 'Projektmanagement' oder 'Datenanalyse'). Fügen Sie auch relevante Soft Skills hinzu, wie 'Kommunikation' und 'Teamarbeit', wenn diese in der Stellenbeschreibung erwähnt werden.",
+    "q3": "Wie kann ich meine Lebenslaufbewertung verbessern, um einer Stellenbeschreibung zu entsprechen?",
+    "a3": "Beginnen Sie damit, die Stellenbeschreibung sorgfältig zu überprüfen und Schlüsselwörter und Anforderungen zu identifizieren, die mit Ihrer Erfahrung übereinstimmen. Passen Sie Ihren Lebenslauf an, um relevante Fähigkeiten, Erfolge und Projekte hervorzuheben. Verwenden Sie Aktionswörter und spezifische Beispiele und stellen Sie sicher, dass Ihr Lebenslaufformat klar und ATS-freundlich ist.",
+    "q4": "Warum sollte ich meinen Lebenslauf auf jede Bewerbung abstimmen?",
+    "a4": "Das Anpassen Ihres Lebenslaufs für jede Bewerbung erhöht Ihre Chancen, ATS-Filter zu passieren und die Aufmerksamkeit des Personalverantwortlichen zu erregen. Es zeigt, dass Sie speziell an der Position interessiert sind und hebt Ihre relevantesten Fähigkeiten und Erfahrungen hervor, wodurch Sie ein stärkerer Kandidat werden.",
+    "q5": "Was ist ATS-Optimierung und warum ist sie für meinen Lebenslauf wichtig?",
+    "a5": "ATS (Applicant Tracking System) Optimierung stellt sicher, dass Ihr Lebenslauf leicht lesbar ist durch Software, die viele Unternehmen zur Überprüfung von Bewerbungen verwenden. Durch die richtige Formatierung Ihres Lebenslaufs und die Aufnahme spezifischer Schlüsselwörter erhöhen Sie die Wahrscheinlichkeit, dass Ihr Lebenslauf menschliche Augen erreicht.",
+    "q6": "Wie kann ich Schlüsselwörter aus der Stellenbeschreibung verwenden, um meinen Lebenslauf zu verbessern?",
+    "a6": "Identifizieren Sie zunächst die Hauptschlüsselwörter und Fähigkeiten in der Stellenbeschreibung. Integrieren Sie diese in relevante Abschnitte Ihres Lebenslaufs, wie die Zusammenfassung, die Fähigkeitenliste und die Jobbeschreibungen. Stellen Sie sicher, dass die Formulierung eng mit der Stellenbeschreibung übereinstimmt, da ATS nach genauen Übereinstimmungen sucht.",
+    "q7": "Was sind die Vorteile der Verwendung eines Lebenslaufbewertungstools?",
+    "a7": "Ein Lebenslaufbewertungstool bewertet schnell, wie gut Ihr Lebenslauf mit einer Stellenbeschreibung übereinstimmt, und hilft Ihnen, Ihre Bewerbung zu verbessern und anzupassen. Es bietet wertvolle Einblicke in Ihre Stärken und Verbesserungsbereiche, was Ihre Chancen erhöht, von Personalvermittlern bemerkt zu werden.",
+    "q8": "Muss ich branchenspezifische Schlüsselwörter in meinen Lebenslauf aufnehmen?",
+    "a8": "Ja, das Aufnehmen branchenspezifischer Schlüsselwörter ist entscheidend, um relevante Erfahrungen zu zeigen. Wenn Sie sich beispielsweise für eine technische Position bewerben, nehmen Sie Begriffe wie 'JavaScript', 'Cloud Computing' oder 'agile Methoden' auf. Branchenspezifische Schlüsselwörter erleichtern es sowohl ATS als auch Personalverantwortlichen, Ihre Qualifikationen zu erkennen.",
+    "q9": "Was ist der Unterschied zwischen der Optimierung eines Lebenslaufs und eines LinkedIn-Profils?",
+    "a9": "Ein Lebenslauf ist in der Regel auf spezifische Bewerbungen zugeschnitten und konzentriert sich auf detaillierte Erfolge und Fähigkeiten. Ein LinkedIn-Profil hingegen sollte umfassender sein und Ihre gesamte berufliche Laufbahn widerspiegeln. Es ist für das Networking optimiert und verwendet oft breitere Sprache, um ein breiteres Publikum anzusprechen.",
+    "q10": "Wie hilft JobMatchResume.com Arbeitssuchenden, ihre Lebensläufe anzupassen?",
+    "a10": "JobMatchResume.com ermöglicht es Benutzern, einen Lebenslauf und eine Stellenbeschreibung hochzuladen, um sofort eine Bewertung und personalisiertes Feedback zu erhalten, wie gut ihr Lebenslauf mit der Stelle übereinstimmt. Diese Einblicke helfen Arbeitssuchenden, gezielte Anpassungen vorzunehmen, um ihre Übereinstimmungsbewertung zu verbessern und ihre Erfolgschancen im Bewerbungsprozess zu erhöhen."
+  },
+   "header": {
+    "subtitle": "Lebenslauf zu Stellenbeschreibung Matcher"
+  }
   }

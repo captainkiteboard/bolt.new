@@ -10,6 +10,7 @@
   "home": {
     "title": "Compara tu CV con descripciones de trabajo",
     "subtitle": "Optimiza tu CV para ATS y aumenta tus posibilidades de ser contratado",
+    "ats": "(ATS) Sistema de Seguimiento de Candidatos", 
     "uploadSection": {
       "resume": {
         "title": "Subir CV",

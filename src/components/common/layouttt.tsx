@@ -83,3 +83,18 @@ export const LanguageSelector: FC = () => {
     </div>
   );
 };
+
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+const Layout: FC<LayoutProps> = ({ children }) => {
+  return (
+    <div>
+      <LanguageSelector />
+      <main>{children}</main>
+    </div>
+  );
+};
+
+export default Layout;

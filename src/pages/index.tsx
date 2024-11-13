@@ -1,12 +1,14 @@
 import { useState, useCallback } from 'react';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Layout from '../components/common/layout';
+
 import { UploadSection } from '../components/upload/UploadSection';
 import { toast } from 'react-toastify';
 import { performJobMatch } from '../middleware/jobmatch';
 import { validateFile } from '../utils/filevalidation';
 import nextI18NextConfig from '../../next-i18next.config';
+import QASection from '../components/jobmatch/qasection';
+
 
 interface MatchResult {
   CandidateEvaluation: {
@@ -109,11 +111,12 @@ const HomePage = () => {
   };
 
   return (
-    <Layout>
+    
       <div className="max-w-4xl mx-auto p-4">
         <h1 className="text-3xl font-bold text-center mb-8">{t('home.title')}</h1>
-        <p className="text-center mb-8 text-gray-600">{t('home.subtitle')}</p>
-
+        <h3 className="text-center text-xl font-semibold mb-1">{t('home.subtitle')}</h3>
+        <p className="text-center text-sm italic text-gray-600 mb-4 mt-1">*{t('home.ats')}</p>
+   
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <UploadSection
             title={t('home.uploadSection.resume.title')}
@@ -189,8 +192,9 @@ const HomePage = () => {
             </div>
           </div>
         )}
+        <QASection />
       </div>
-    </Layout>
+
   );
 };
 

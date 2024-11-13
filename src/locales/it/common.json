@@ -10,6 +10,7 @@
   "home": {
     "title": "Confronta il tuo CV con le descrizioni di lavoro",
     "subtitle": "Ottimizza il tuo CV per ATS e aumenta le tue possibilità di assunzione",
+    "ats": "(ATS) Sistema di tracciamento dei candidati",
     "uploadSection": {
       "resume": {
         "title": "Carica CV",

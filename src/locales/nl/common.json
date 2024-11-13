@@ -10,6 +10,7 @@
     "home": {
       "title": "Vergelijk je CV met vacatures",
       "subtitle": "Optimaliseer je CV voor ATS en vergroot je kans op een baan",
+      "ats": "(ATS) Applicant Tracking System",
       "uploadSection": {
         "resume": {
           "title": "CV uploaden",
@@ -33,5 +34,31 @@
     "info": "Nog {{remaining}} van {{total}} verzoeken over. Reset over {{resetIn}} minuten.",
     "error": "Limiet voor verzoeken overschreden. Probeer het over {{minutes}} minuten opnieuw of upgrade uw abonnement.",
     "upgrade": "Upgrade nu voor onbeperkte verzoeken"
+    },
+    "qa": {
+    "title": "Veelgestelde Vragen",
+    "q1": "Hoe werkt een tool voor het matchen van cv's?",
+    "a1": "Een tool voor het matchen van cv's scant je cv en een specifieke functiebeschrijving, en analyseert vervolgens hoe goed je kwalificaties overeenkomen met de vereisten van de functie. Het kijkt naar trefwoorden, relevante ervaring, vaardigheden en branchespecifieke terminologie om een matchscore te genereren, zodat je verbeterpunten kunt identificeren.",
+    "q2": "Wat zijn de belangrijkste trefwoorden om in mijn cv op te nemen voor een betere ATS-compatibiliteit?",
+    "a2": "Om de ATS-compatibiliteit te verbeteren, richt je je op trefwoorden rechtstreeks uit de functiebeschrijving, zoals specifieke vaardigheden, functietitels en relevante technologieën (zoals 'React', 'projectmanagement' of 'data-analyse'). Voeg ook relevante soft skills toe, zoals 'communicatie' en 'teamwerk', als deze in de functiebeschrijving worden genoemd.",
+    "q3": "Hoe kan ik mijn cv-score verbeteren om overeen te komen met een functiebeschrijving?",
+    "a3": "Begin met het zorgvuldig doornemen van de functiebeschrijving en het identificeren van trefwoorden en vereisten die overeenkomen met je ervaring. Pas je cv aan om relevante vaardigheden, prestaties en projecten te benadrukken. Gebruik actiewoorden en specifieke voorbeelden, en zorg ervoor dat je cv-indeling duidelijk en ATS-vriendelijk is.",
+    "q4": "Waarom zou ik mijn cv afstemmen op elke sollicitatie?",
+    "a4": "Het afstemmen van je cv op elke sollicitatie vergroot je kansen om door ATS-filters te komen en de aandacht van de hiring manager te trekken. Het laat zien dat je specifiek geïnteresseerd bent in de functie en benadrukt je meest relevante vaardigheden en ervaringen, waardoor je een sterkere kandidaat wordt.",
+    "q5": "Wat is ATS-optimalisatie en waarom is het belangrijk voor mijn cv?",
+    "a5": "ATS (Applicant Tracking System) optimalisatie zorgt ervoor dat je cv gemakkelijk leesbaar is door software die veel bedrijven gebruiken om sollicitaties te screenen. Door je cv correct op te maken en specifieke trefwoorden op te nemen, vergroot je de kans dat je cv de ogen van mensen bereikt.",
+    "q6": "Hoe kan ik trefwoorden uit de functiebeschrijving gebruiken om mijn cv te verbeteren?",
+    "a6": "Identificeer eerst de belangrijkste trefwoorden en vaardigheden in de functiebeschrijving. Verwerk deze in relevante secties van je cv, zoals de samenvatting, vaardighedenlijst en functiebeschrijvingen. Zorg ervoor dat de formulering nauw aansluit bij de functiebeschrijving, aangezien ATS zoekt naar exacte overeenkomsten.",
+    "q7": "Wat zijn de voordelen van het gebruik van een cv-scoretool?",
+    "a7": "Een cv-scoretool evalueert snel hoe goed je cv overeenkomt met een functiebeschrijving, zodat je je sollicitatie kunt verbeteren en aanpassen. Het biedt waardevolle inzichten in je sterke punten en verbeterpunten, wat je kansen vergroot om opgemerkt te worden door recruiters.",
+    "q8": "Moet ik branchespecifieke trefwoorden opnemen in mijn cv?",
+    "a8": "Ja, het opnemen van branchespecifieke trefwoorden is essentieel om relevante ervaring te tonen. Als je bijvoorbeeld solliciteert naar een technische functie, neem dan termen op zoals 'JavaScript', 'cloud computing' of 'agile methodologieën'. Branchetrefwoorden maken het gemakkelijker voor zowel ATS als recruiters om je kwalificaties te zien.",
+    "q9": "Wat is het verschil tussen het optimaliseren van een cv en een LinkedIn-profiel?",
+    "a9": "Een cv is meestal afgestemd op specifieke sollicitaties en richt zich op gedetailleerde prestaties en vaardigheden. Een LinkedIn-profiel daarentegen moet uitgebreider zijn en je hele professionele reis weerspiegelen. Het is geoptimaliseerd voor netwerken en gebruikt vaak bredere taal om een breder publiek aan te spreken.",
+    "q10": "Hoe helpt JobMatchResume.com werkzoekenden bij het afstemmen van hun cv's?",
+    "a10": "JobMatchResume.com stelt gebruikers in staat om een cv en functiebeschrijving te uploaden om direct een score en gepersonaliseerde feedback te krijgen over hoe goed hun cv overeenkomt met de functie. Dit inzicht helpt werkzoekenden gerichte aanpassingen te maken om hun matchscore te verbeteren, waardoor hun kansen op succes in het sollicitatieproces toenemen."
+  },
+  "header": {
+    "subtitle": "Cv naar functieomschrijving matcher"
   }
   }

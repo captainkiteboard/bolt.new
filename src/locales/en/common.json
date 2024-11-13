@@ -9,6 +9,7 @@
     "home": {
       "title": "Match Your Resume to Job Descriptions",
       "subtitle": "Optimize your resume for ATS and increase your chances of getting hired",
+      "ats": "(ATS)Applicant Tracking System", 
       "uploadSection": {
         "resume": {
           "title": "Upload Resume",
@@ -64,8 +65,35 @@
       "delete": "Delete"
     }, 
     "rateLimit": {
-    "info": "Noch {{remaining}} von {{total}} Anfragen übrig. Zurückgesetzt in {{resetIn}} Minuten.",
-    "error": "Anfragelimit überschritten. Bitte versuchen Sie es in {{minutes}} Minuten erneut oder upgraden Sie Ihren Plan.",
-    "upgrade": "Jetzt upgraden für unbegrenzte Anfragen"
-  }
+    "info": "{{remaining}} of {{total}} requests remaining. Reset in {{resetIn}} minutes.",
+    "error": "Request limit exceeded. Please try again in {{minutes}} minutes or upgrade your plan.",
+    "upgrade": "Upgrade now for unlimited requests"
+    },
+    "qa": {
+        "title": "Frequently Asked Questions",
+        "q1": "How does a resume matching tool work?",
+        "a1": "A resume matching tool scans your resume and a specific job description, then analyzes how well your qualifications align with the job’s requirements. It looks at keywords, relevant experience, skills, and industry-specific terminology to generate a match score, helping you identify areas for improvement.",
+        "q2": "What are the top keywords to include in my resume for better ATS compatibility?",
+        "a2": "To improve ATS compatibility, focus on keywords directly from the job description, such as specific skills, job titles, and relevant technologies (like “React,” “project management,” or “data analysis”). Also, include relevant soft skills, such as “communication” and “teamwork,” if they’re mentioned in the job description.",
+        "q3": "How can I improve my resume score to match a job description?",
+        "a3": "Start by carefully reviewing the job description and identifying keywords and requirements that match your experience. Adjust your resume to highlight relevant skills, achievements, and projects. Use action words and specific examples, and ensure your resume format is clear and ATS-friendly.",
+        "q4": "Why should I match my resume to each job application?",
+        "a4": "Tailoring your resume for each application increases your chances of passing ATS filters and catching the hiring manager’s attention. It shows that you’re specifically interested in the position and highlights your most relevant skills and experiences, making you a stronger candidate.",
+        "q5": "What is ATS optimization, and why is it important for my resume?",
+        "a5": "ATS (Applicant Tracking System) optimization ensures your resume is easily readable by software that many companies use to screen applications. By formatting your resume properly and including specific keywords, you increase the likelihood of your resume reaching human eyes.",
+        "q6": "How can I use job description keywords to enhance my resume?",
+        "a6": "First, identify the main keywords and skills in the job description. Incorporate these into relevant sections of your resume, like the summary, skills list, and job experience descriptions. Make sure the wording matches the job description closely, as ATS scans for exact matches.",
+        "q7": "What are the benefits of using a resume scoring tool?",
+        "a7": "A resume scoring tool quickly evaluates how well your resume aligns with a job description, helping you improve and tailor your application. It provides valuable insights into your strengths and areas for improvement, which can increase your chances of getting noticed by recruiters.",
+        "q8": "Do I need to include industry-specific keywords in my resume?",
+        "a8": "Yes, including industry-specific keywords is essential for showing relevant experience. For example, if applying for a tech role, include terms like “JavaScript,” “cloud computing,” or “agile methodologies.” Industry keywords make it easier for both ATS and recruiters to see your qualifications.",
+        "q9": "What’s the difference between optimizing a resume and a LinkedIn profile?",
+        "a9": "A resume is usually tailored to specific job applications, focusing on detailed achievements and skills. A LinkedIn profile, however, should be more comprehensive and reflect your entire professional journey. It’s optimized for networking and often uses broader language to appeal to a wider audience.",
+        "q10": "How does JobMatchResume.com help job seekers tailor their resumes?",
+        "a10": "JobMatchResume.com allows users to upload a resume and job description to get an instant score and personalized feedback on how well their resume aligns with the job. This insight helps job seekers make targeted adjustments to improve their match score, increasing their chances of success in the hiring process."
+      },
+      "header": {
+        "subtitle": "Resume to Jobspec Matcher"
+      }
+  
   }
