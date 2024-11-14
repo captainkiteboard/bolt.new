@@ -1,14 +1,7 @@
-// src/middleware/jobMatch.ts
+import axios from 'axios';
 
-import { jobMatchRateLimiter } from './config';
-
-
-interface JobMatchRequest {
-    resume: string;
-    jobDescription: string;
-  }
   
-  interface JobMatchResponse {
+export interface JobMatchResponse {
     CandidateEvaluation: {
       Position: string;
       OverallRecommendation: string;
@@ -45,10 +38,11 @@ interface JobMatchRequest {
     };
   }
   
-export const performJobMatch = async (
-    resume: string,
-    jobDescription: string
-  ): Promise<JobMatchResponse> => {
+  export const performJobMatch = async (resume: File, jobDescription: File): Promise<JobMatchResponse> => {
+    const formData = new FormData();
+    formData.append('resume', resume);
+    formData.append('jobDescription', jobDescription);
+  
     try {
       // Check client-side rate limit
       const rateLimitKey = 'job-match-client';
@@ -79,29 +73,20 @@ export const performJobMatch = async (
           resetTime: Date.now() + 60000 // 1 minute
         }));
       }
-  
-      const response = await fetch('YOUR_BACKEND_API_URL/job-match', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          resume,
-          jobDescription,
-        }),
-      });
-  
-      if (response.status === 429) {
-        const data = await response.json();
-        throw new Error(data.error);
+      const matchUrl = 'https://n8n-rxew.onrender.com:443/webhook/9d235b66-2a42-4cb4-afd6-b0a84e380f38'
+      try {
+        const response = await axios.post(matchUrl, formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data',
+          },
+        });
+    
+        return response.data as JobMatchResponse;
+      } catch (error) {
+        console.error('Error sending files to wokflow:', error);
+        throw new Error('Failed to perform job match in Middleware');
       }
   
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-  
-      const data = await response.json();
-      return data;
     } catch (error) {
       console.error('Error in job match middleware:', error);
       throw error;
